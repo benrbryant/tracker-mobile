@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { useAuth0 } from "react-native-auth0";
 import LogoutButton from "./LogoutButton";
 import LoginButton from "./LoginButton";

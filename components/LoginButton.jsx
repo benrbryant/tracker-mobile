@@ -1,5 +1,6 @@
 import Constants from "expo-constants";
 import { useAuth0 } from "react-native-auth0";
+import Button from "./common/Button";
 
 export default function LoginButton() {
   const { authorize } = useAuth0();

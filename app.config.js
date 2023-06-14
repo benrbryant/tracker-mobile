@@ -32,12 +32,13 @@ module.exports = {
       "react-native-auth0",
       {
         domain: process.env.AUTH0_DOMAIN,
-        clientId: process.env.AUTH0_CLIENTID,
         customScheme: process.env.AUTH0_SCHEME,
       },
     ],
   ],
   extra: {
     test: process.env.TEST,
+    domain: process.env.AUTH0_DOMAIN,
+    clientId: process.env.AUTH0_CLIENTID,
   },
 };
