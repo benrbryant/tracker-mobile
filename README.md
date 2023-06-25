@@ -11,5 +11,7 @@ Keep track of when things happen so that you can make data driven life decisions
 
 ## Resources
 
+- [React Native Docs](https://reactnative.dev/docs/getting-started)
 - [Expo Docs](https://docs.expo.dev/)
+- [Redux Docs](https://redux.js.org/introduction/getting-started)
 - [Jest Docs](https://jestjs.io/docs/getting-started)
