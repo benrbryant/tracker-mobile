@@ -27,18 +27,8 @@ module.exports = {
   web: {
     favicon: "./assets/favicon.png",
   },
-  plugins: [
-    [
-      "react-native-auth0",
-      {
-        domain: process.env.AUTH0_DOMAIN,
-        customScheme: process.env.AUTH0_SCHEME,
-      },
-    ],
-  ],
   extra: {
     test: process.env.TEST,
-    domain: process.env.AUTH0_DOMAIN,
-    clientId: process.env.AUTH0_CLIENTID,
+    serverUrl: process.env.SERVER_URL,
   },
 };

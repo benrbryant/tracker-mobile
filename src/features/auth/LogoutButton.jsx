@@ -1,15 +1,9 @@
-import Constants from "expo-constants";
-import { useAuth0 } from "react-native-auth0";
 import Button from "./common/Button";
 
 export default function LogoutButton() {
-  const { clearSession } = useAuth0();
-
   const onPress = async () => {
     try {
-      await clearSession({
-        customScheme: Constants.expoConfig.extra.customScheme,
-      });
+      alert("Logging out..");
     } catch (e) {
       console.log(e);
     }
