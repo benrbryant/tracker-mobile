@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 import Constants from "expo-constants";
-import Button from "../../common/Button";
+import Button from "../../common/components/Button";
 
 export default function Profile() {
   return (

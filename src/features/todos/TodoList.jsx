@@ -1,5 +1,5 @@
 import { View, FlatList, StyleSheet } from "react-native";
-import { selectAllTodos } from "./todosSlice";
+import { selectAllTodos } from "../../common/store/todosSlice";
 import { useSelector } from "react-redux";
 import TodoItem from "./TodoItem";
 
