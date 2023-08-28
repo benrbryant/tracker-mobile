@@ -3,6 +3,7 @@ require("dotenv").config();
 module.exports = {
   name: "tracker-mobile",
   slug: "tracker-mobile",
+  scheme: "tracker-mobile",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/icon.png",
